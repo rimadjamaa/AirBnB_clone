@@ -1,9 +1,14 @@
 #!/usr/bin/python3
+"""
+This module contains the entry point of the command interpreter.
+"""
+
 import cmd
 
 
 class HBNBCommand(cmd.Cmd):
-    prompt = '(hbnb)'
+    """Command interpreter for AirBnB clone project."""
+    prompt = '(hbnb) '
 
     def do_quit(self, arg):
         """Quit command to exit the program"""
