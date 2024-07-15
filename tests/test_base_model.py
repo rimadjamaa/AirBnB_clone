@@ -1,6 +1,7 @@
 import unittest
 from models.base_model import BaseModel
 
+
 class TestBaseModel(unittest.TestCase):
     def test_create_instance(self):
         obj = BaseModel()
@@ -13,6 +14,7 @@ class TestBaseModel(unittest.TestCase):
         self.assertEqual(obj.name, "Test")
 
     # Add more test cases as needed
+
 
 if __name__ == '__main__':
     unittest.main()
